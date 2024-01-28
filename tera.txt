@@ -1,2 +1,14 @@
-tera
-tera
+# アクティブなシートを取得する（後の節で学習します）
+ws = workbook.active
+
+# セルに値を書き込む（後の節で学習します）
+ws['A1'] = 42
+
+# Excelファイルを上書き保存する
+workbook.save('sample1.xlsx')
+
+# セルに値を書き込む
+ws['A1'] = 10
+
+# Excelファイルを別名保存する9999
+workbook.save('sample2.xlsx')
