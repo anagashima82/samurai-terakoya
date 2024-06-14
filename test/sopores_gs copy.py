@@ -1,7 +1,7 @@
 import streamlit as st
 import debugpy
 
-# デバッグサーバーの設定123
+# デバッグサーバーの設定
 if not debugpy.is_client_connected():
     try:
         debugpy.listen(("localhost", 5679))
